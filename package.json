@@ -1,0 +1,17 @@
+{
+  "name": "EllenLu.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:EllenKun/EllenLu.github.io.git",
+  "author": "EllenKun <2453630526@qq.com>",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.46",
+    "vue": "^3.2.47"
+  }
+}
