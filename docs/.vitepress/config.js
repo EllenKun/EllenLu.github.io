@@ -3,7 +3,7 @@ export default {
   description: '日常记录',
   lastUpdated:true,
   cleanUrls:true,
-  base:'/EllenLu.github.io/',
+  base:'/blog/',
   themeConfig:{
     siteTitle:'akunnnn',
     logo:'../logo.png',
