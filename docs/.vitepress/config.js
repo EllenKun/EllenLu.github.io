@@ -1,23 +1,23 @@
 export default {
-  title: 'EllenLu',
+  title: 'akun',
   description: '日常记录',
   lastUpdated:true,
   cleanUrls:true,
   base:'/blog/',
   themeConfig:{
-    siteTitle:'akunnnn',
-    logo:'../logo.png',
+    siteTitle:'堃堃堃困困kunnnn',
+    logo:'/kun-logo.png',
     nav: [
       { text: '前端', link: '/frontEnd/test', activeMatch:'/frontEnd/' },
       { text: '碎念', link: '/murmur/a', activeMatch:'/murmur/'},
-      {
-        text: 'Dropdown Menu',
-        items: [
-          { text: 'Item A', link: '/item-1' },
-          { text: 'Item B', link: '/item-2' },
-          { text: 'Item C', link: '/item-3' }
-        ]
-      }
+      // {
+      //   text: '记性好差',
+      //   items: [
+      //     { text: 'Item A', link: '/item-1' },
+      //     { text: 'Item B', link: '/item-2' },
+      //     { text: 'Item C', link: '/item-3' }
+      //   ]
+      // }
     ],
     sidebar:{
       '/frontEnd/':[
@@ -25,7 +25,7 @@ export default {
           text:'前端知识点',
           collapsed:false,
           items:[
-            { text:'Index',link:'/frontEnd/test'},
+            { text:'NVM操作',link:'/frontEnd/nvmDirect'},
           ]
         }
       ],
@@ -34,9 +34,7 @@ export default {
           text:'碎碎念',
           collapsed:false,
           items:[
-            { text:'first',link:'/murmur/a'},
-            { text:'second',link:'/murmur/b'},
-            { text:'third',link:'/murmur/test2'}
+            { text:'一个标题',link:'/murmur/a'},
           ]
         }
       ]

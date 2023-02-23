@@ -1,0 +1,14 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient( 135deg, #69FF97 10%, #00E4FF 100%);
+  --vp-button-brand-bg:#454443;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-bg: #353634;
+  --vp-button-brand-hover-border: transparent
+  .VPButton.medium {
+    width:160px;
+  }
+}
+.VPButton.brand{
+  width: 160px;
+}
