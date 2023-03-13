@@ -27,6 +27,16 @@ export default {
           items:[
             { text:'NVM操作',link:'/frontEnd/nvmDirect'},
           ]
+        },
+        {
+          text:'怎么记住八股啊',
+          collapsed:true,
+          items:[
+            { text:'CSS啥也不会',link:'/frontEnd/interview/CSS'},
+            { text:'HTML更别提了', link:'/frontEnd/interview/HTML'},
+            { text:'JS望而却步',link:'/frontEnd/interview/JavaScript'},
+            { text:'Vue高不可攀',link:'/frontEnd/interview/Vue'}
+          ]
         }
       ],
       '/murmur/':[
